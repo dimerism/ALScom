@@ -1,0 +1,11 @@
+Pillow
+opencv-python
+numpy
+screeninfo
+string
+datetime
+time
+winsound
+scikit-learn
+pickle
+dlib
