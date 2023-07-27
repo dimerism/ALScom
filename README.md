@@ -8,15 +8,15 @@ Eye-Tracking Webcam Keyboard: A system that allows hands-free typing using eye m
 
 ## Guia de Instalação para o Projeto:
 1. Instalar Python:
-- Faça o download da versão mais recente do Python 3.x no site oficial: 
+  - Faça o download da versão mais recente do Python 3.x no site oficial: 
   https://www.python.org/downloads/
-- Execute o instalador e siga as instruções para instalar o Python.
+  - Execute o instalador e siga as instruções para instalar o Python.
     Certifique-se de marcar a opção "Adicionar Python 3.x ao PATH" durante a instalação.
    
 2. Instalar Visual Studio com C++:
-- Acesse o site do Visual Studio em: 
+  - Acesse o site do Visual Studio em: 
     https://visualstudio.microsoft.com/pt-br/vs/features/cplusplus/
-- Baixe e instale o Visual Studio com suporte ao desenvolvimento em C++.
+  - Baixe e instale o Visual Studio com suporte ao desenvolvimento em C++.
 
 3. Instalar Cmake:
 - Acesse o site do CMake em: https://cmake.org/download/
