@@ -104,4 +104,5 @@ Fase de Uso:
     precisão. O sistema foi projetado para auxiliar na comunicação e facilitar a interação, tornando-o 
     mais eficiente à medida que você se familiariza com seu funcionamento
 
-## Licença: Este projeto é distribuído sob a Licença Pública Geral GNU v2.0.
+## Licença
+  Este projeto é distribuído sob a Licença Pública Geral GNU v2.0.
