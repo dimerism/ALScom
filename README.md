@@ -2,8 +2,8 @@
 Teclado controlado por Rastreamento Ocular usando imagens capturadas por Webcam: Um sistema que permite a digitação sem o uso das mãos utilizando os movimentos oculares capturados por uma webcam.
 Eye-Tracking Webcam Keyboard: A system that allows hands-free typing using eye movements captured by a webcam.
 
-- [Guia de Instalação para o Projeto](#instalação)
-- [Guia de Uso do Sistema](#uso)
+- [Guia de Instalação para o Projeto](#guia-de-instalação-para-o-projeto)
+- [Guia de Uso do Sistema](#guia-de-uso-do-sistema)
 - [Licença](#licença)
 
 ## Guia de Instalação para o Projeto:
@@ -60,6 +60,7 @@ Recomendações:
   cm.
 2. Garanta que haja apenas um rosto na imagem capturada.
 3. Posicione-se de frente para a fonte de luz de forma que ilumine adequadamente o rosto.
+   
   Ideal:
 
   ![Ideal](https://i.imgur.com/vRNb2bK.png)
@@ -68,8 +69,8 @@ Recomendações:
   
   ![Não Ideal](https://i.imgur.com/CwjAkSq.png)
   
-5. Mantenha a face sem rotação e voltada diretamente para a câmera.
-6. Durante o uso do sistema, mantenha a posição da face estável.
+4. Mantenha a face sem rotação e voltada diretamente para a câmera.
+5. Durante o uso do sistema, mantenha a posição da face estável.
    
 Fase de Calibração:
 1. Captura de imagens de olhos fechados:
