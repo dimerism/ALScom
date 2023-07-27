@@ -61,9 +61,9 @@ Recomendações:
 2. Garanta que haja apenas um rosto na imagem capturada.
 3. Posicione-se de frente para a fonte de luz de forma que ilumine adequadamente o rosto.
   Ideal:
-  ![Ideal](https://imgur.com/a/dyzh0b1)
+  ![Ideal](https://i.imgur.com/vRNb2bK.png)
   Não Ideal:
-  ![Não Ideal](https://imgur.com/a/mW3FBgH)
+  ![Não Ideal](https://i.imgur.com/CwjAkSq.png)
 5. Mantenha a face sem rotação e voltada diretamente para a câmera.
 6. Durante o uso do sistema, mantenha a posição da face estável.
    
