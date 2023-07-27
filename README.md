@@ -32,9 +32,9 @@ Teclado controlado por Rastreamento Ocular usando imagens capturadas por Webcam:
 - Acesse o link para a pasta no Google Drive contendo os arquivos adicionais: 
     https://drive.google.com/drive/folders/1CwLl5zjqQekUZnWPppVCD6DDtDbXzvrk
 - Na pasta, faça o download dos seguintes arquivos:
-    dlib-19.24.2.dist-info
-    dlib
-    _dlib_pybind11.cp311-win_amd64.pyd
+  - dlib-19.24.2.dist-info
+  - dlib
+  - _dlib_pybind11.cp311-win_amd64.pyd
 - Salve esses arquivos na seguinte pasta: \Python\Python311\Lib\site-package
 - Faça o download do arquivo shape_predictor_68_face_landmarks.dat usando o link 
     fornecido.
