@@ -2,8 +2,8 @@
 Teclado controlado por Rastreamento Ocular usando imagens capturadas por Webcam: Um sistema que permite a digitação sem o uso das mãos utilizando os movimentos oculares capturados por uma webcam.
 Eye-Tracking Webcam Keyboard: A system that allows hands-free typing using eye movements captured by a webcam.
 
-- [Instalação](#instalação)
-- [Uso](#uso)
+- [Guia de Instalação para o Projeto](#instalação)
+- [Guia de Uso do Sistema](#uso)
 - [Licença](#licença)
 
 ## Guia de Instalação para o Projeto:
