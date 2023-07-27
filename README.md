@@ -98,10 +98,11 @@ Fase de Uso:
  3. Caracteres adicionais:
 - Se um símbolo indesejado tiver sido selecionado, selecione o símbolo " < " para 
     apagá-lo e retornar à seleção de símbolos.
-- Para digitar um espaço, selecione o símbolo " _ ". 
-    Lembre-se de manter a calma e praticar o uso do sistema para obter o melhor desempenho e 
-    precisão. O sistema foi projetado para auxiliar na comunicação e facilitar a interação, tornando-o 
-    mais eficiente à medida que você se familiariza com seu funcionamento
+- Para digitar um espaço, selecione o símbolo " _ ".
+  
+Lembre-se de manter a calma e praticar o uso do sistema para obter o melhor desempenho e 
+precisão. O sistema foi projetado para auxiliar na comunicação e facilitar a interação, tornando-o 
+mais eficiente à medida que você se familiariza com seu funcionamento
 
 ## Licença
   Este projeto é distribuído sob a Licença Pública Geral GNU v2.0.
