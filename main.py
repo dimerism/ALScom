@@ -59,7 +59,31 @@ def extract_eyes(face,landmarks):
     OlhoEsquerdo = face[Eymin-3:Eymax+3,Exmin-3:Exmax+3]
     OlhoDireito = face[Dymin-3:Dymax+3,Dxmin-3:Dxmax+3]
     return OlhoEsquerdo,OlhoDireito
-        
+
+
+
+#função usada para salvar em um .txt as palavras digitadas
+def save_string_to_file(text, file_name):
+    try:
+        with open(file_name, 'a') as file:
+            file.write(text)
+    except Exception as e:
+        print(f"An error occurred while saving the file: {e}")
+
+
+
+save_string_to_file('\n\n\n', 'historico.txt')
+# Get the current date and time
+current_datetime = datetime.now()
+# Format the date and time as a string
+formatted_datetime = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+save_string_to_file(formatted_datetime, 'historico.txt')
+save_string_to_file('\n\n', 'historico.txt')
+
+
+    
+    
+
 def create_alphabet(texto):
 
     alphabet = list(string.ascii_uppercase)
@@ -69,17 +93,19 @@ def create_alphabet(texto):
     if len(texto) == 1:
     
         words = wordSugestion('a',alphabet)
+        
     else:
         t = ''.join(texto)
         w = t.split()
         w = w[-1]
         words = wordSugestion(w,alphabet)
+        
     
     
     if len(words)>4:
         words = words[0:4]
     
-
+    words = np.char.upper(words)
     
     alphabet = merge_alpha_words(alphabet, words)
     alphabet = np.array(alphabet)
@@ -384,7 +410,7 @@ I = np.array((d,d))
 F = np.array((width-d-20,height-d-20))
 Px = 10
 Py = 10
-while p<4:
+while p<2:
     time.sleep(0.05)
     #draws new circle for calibration
     img1 = img.copy()
@@ -645,14 +671,30 @@ while True:
                 
             elif alphabet[f[0][0]]=='_':
                 
-                texto = np.append(texto,' ')
+                save_string_to_file(' ', 'historico.txt')
+                
+                if len(texto)>64:
+                    texto = np.roll(texto, -1)
+                    texto[-1] = ' '
+                else
+                    texto = np.append(texto,' ')
+
+                
                 alphabet = create_alphabet(texto)
                 
             else:
                 if len(alphabet[f[0][0]])==1:
-                    texto = np.append(texto,alphabet[f[0][0]])
+                    
+                    save_string_to_file(alphabet[f[0][0]], 'historico.txt')
+
+                    if len(texto)>64:
+                        texto = np.roll(texto, -1)
+                        texto[-1] = alphabet[f[0][0]]
+                    else
+                        texto = np.append(texto,alphabet[f[0][0]])
                     print(texto)
                     alphabet = create_alphabet(texto)
+                    
                 else:
                     pos_ultimo_espaco = np.where(texto== ' ')
                     if np.size(pos_ultimo_espaco)>0:
